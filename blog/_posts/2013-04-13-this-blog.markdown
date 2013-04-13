@@ -1,5 +1,4 @@
 ---
-title: This blog
 ---
 
 Hello and welcome to this little blog. Here I will blog from time to time about internals of the ALD system and announce new releases or other important news.
