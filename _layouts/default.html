@@ -9,5 +9,11 @@
 	</head>
 	<body>
 		<div id="page-content">{{ content }}</div>
+		<div id="footer">
+			<h2>Site</h2>
+			(c) maul.esel<br/>
+			<a href="https://github.com/Library-Distribution/about.libba.net">github repo</a><br/>
+			Last built: {{ site.time | date_to_long_string }} {{ site.time | date: "%X" }}
+		</div>
 	</body>
 </html>
