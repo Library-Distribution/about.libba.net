@@ -1,0 +1,9 @@
+markdown: redcarpet
+pygments: false
+permalink: /:title
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - no_intra_emphasis
