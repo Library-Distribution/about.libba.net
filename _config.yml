@@ -1,6 +1,6 @@
 markdown: redcarpet
 pygments: false
-permalink: /:title
+permalink: date
 exclude:
   - README.md
 redcarpet:
