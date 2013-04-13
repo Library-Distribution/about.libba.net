@@ -7,3 +7,5 @@ redcarpet:
     - autolink
     - tables
     - no_intra_emphasis
+    - with_toc_data
+    - xhtml
