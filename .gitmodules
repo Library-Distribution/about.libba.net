@@ -1,0 +1,4 @@
+[submodule "docs/api/current"]
+	path = docs/api/current
+	url = git://github.com/Library-Distribution/ALD-API-docs.git
+	branch = master
