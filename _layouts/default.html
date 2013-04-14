@@ -9,11 +9,22 @@
 	</head>
 	<body>
 		<div id="page-content">{{ content }}</div>
-		<div id="footer">
+		<div id="navigation" class="corner top left">
+			<h2>Navigation</h2>
+			<div>
+				<a href="http://libba.net">Main website</a><br/>
+				<a href="/">Start page</a><br/>
+				<a href="/blog">Blog</a><br/>
+				<a href="/docs/api/current">Docs</a><br/>
+			</div>
+		</div>
+		<div id="site" class="corner bottom right">
 			<h2>Site</h2>
-			(c) maul.esel<br/>
-			<a href="https://github.com/Library-Distribution/about.libba.net">github repo</a><br/>
-			Last built: {{ site.time | date_to_long_string }} {{ site.time | date: "%X" }}
+			<div>
+				(c) maul.esel<br/>
+				<a href="https://github.com/Library-Distribution/about.libba.net">github repo</a><br/>
+				Last built: {{ site.time | date_to_long_string }} {{ site.time | date: "%X" }}
+			</div>
 		</div>
 	</body>
 </html>
