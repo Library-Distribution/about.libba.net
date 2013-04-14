@@ -35,6 +35,13 @@ body {
 
 	color: gray;
 }
+.corner a, .corner a:visited {
+	color: dimgray;
+	text-shadow: 1px 1px 1px #bbb;
+}
+.corner a:hover {
+	color: gray;
+}
 .corner.bottom {
 	bottom: 0;
 }
