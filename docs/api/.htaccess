@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteBase /docs/api
+RewriteRule ^current(.*)$ development$1 [R=302,L]
