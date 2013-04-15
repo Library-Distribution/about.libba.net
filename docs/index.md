@@ -1,5 +1,5 @@
 ---
-title: index
+title: ALD documentation
 layout: docs
 ---
 
