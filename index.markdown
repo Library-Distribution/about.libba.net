@@ -7,5 +7,5 @@ layout: page
 # Blog
 To visit the libba.net blog, go [here...](blog/).
 
-# API docs
-To view the current API documentation, go [here...](docs/api/current).
+# Documentation
+To view the current API documentation, go [here...](docs/).
