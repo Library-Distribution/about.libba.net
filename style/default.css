@@ -106,6 +106,7 @@ pre {
 	background-color: #EFEFEF;
 	padding: 5px;
 	border: solid gray 1px;
+	overflow: auto;
 
 	border-radius: 3px;
 	-moz-border-radius: 3px;
