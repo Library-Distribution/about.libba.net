@@ -83,7 +83,7 @@ h3 {
 	margin-left: 2.5%;
 }
 
-h1, h2, h3 {
+#page-content h1, h2, h3 {
 	border-bottom: solid gray 1px;
 }
 
