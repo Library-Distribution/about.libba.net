@@ -15,8 +15,28 @@
 			<div>
 				<a href="http://libba.net">Main website</a><br/>
 				<a href="/">Start page</a><br/>
+				{% if page.nav_links.index %}
+					{% for link in page.nav_links.index %}
+						<a class="level-1" href="/{{link[1]}}">{{link[0]}}</a><br/>
+					{% endfor %}
+				{% endif %}
 				<a href="/blog/">Blog</a><br/>
+				{% if page.nav_links.blog %}
+					{% for link in page.nav_links.blog %}
+						<a class="level-1" href="/{{link[1]}}">{{link[0]}}</a><br/>
+					{% endfor %}
+				{% endif %}
 				<a href="/docs/">Docs</a><br/>
+				{% if page.nav_links.docs %}
+					{% for link in page.nav_links.docs %}
+						<a class="level-1" href="/{{link[1]}}">{{link[0]}}</a><br/>
+					{% endfor %}
+				{% endif %}
+				{% for link in page.nav_links %}
+					{% unless link[0] == 'index' or link[0] == 'blog' or link[0] == 'docs' %}
+						<a href="/{{link[1]}}">{{link[0]}}</a><br/>
+					{% endunless %}
+				{% endfor %}
 			</div>
 		</div>
 		<div id="site" class="corner bottom right">

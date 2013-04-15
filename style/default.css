@@ -68,6 +68,10 @@ body {
 	clear: both;
 }
 
+.corner .level-1 {
+	padding-left: 5%;
+}
+
 h1 {
 	text-align: center;
 	font-style: italic;
