@@ -1,0 +1,7 @@
+---
+layout: nil
+permalink: sitemap.txt
+---
+{% for page in site.pages %}{{ site.url }}{% capture first_letter %}{{ page.url | truncate: 1, '' }}{% endcapture %}{% unless first_letter == '/' %}/{% endunless %}{{ page.url }}
+{% endfor %}{% for post in site.posts %}
+{{ site.url }}{% capture first_letter %}{{ post.url | truncate: 1, '' }}{% endcapture %}{% unless first_letter == '/' %}/{% endunless %}{{ post.url }}{% endfor %}
