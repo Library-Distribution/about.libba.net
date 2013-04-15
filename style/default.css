@@ -91,7 +91,7 @@ h3 {
 	border-bottom: solid gray 1px;
 }
 
-#page-content > p, table, h4, pre, ul, #page-content div {
+#page-content > p, #page-content > table, #page-content > h4, #page-content > pre, #page-content > ul, #page-content > div {
 	margin-left: 5%;
 	margin-right: 5%;
 }
