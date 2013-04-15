@@ -3,16 +3,16 @@
 
 Hello and welcome to this little blog. Here I will blog from time to time about internals of the ALD system and announce new releases or other important news.
 
-## What's that ?
+# What's that ?
 ALD stands for AutoHotkey Library Distribution (System). It's a system for an easy distribution and installation of libraries and apps, similar to RubyGems.
 But instead of Ruby it is made for [AutoHotkey](http://autohotkey.com)^TM, a Windows scripting language. The details on how it is constructed can be read up [here](../../../../docs/api/current/ALD-model.html).
 
-## Who am I ?
+# Who am I ?
 I'm a German living near Stuttgart. I'm still a student - though not for long anymore.
 I do programming just for fun and entertainment and have thus far used several programming languages from the wonderful [AutoHotkey](http://autohotkey.com) scripting language
 over C# and C++ to PHP (currently exploring Ruby).
 
-## What next ?
+# What next ?
 If you'd like to know more about ALD, check out [its github repos](https://github.com/Library-Distribution) or visit the [main website](http://libba.net).
 Contributors are welcome, just contact me via github.
 I will polish up this blog and the docs a little more soon. Also, the docs need to be completed and updated and versioned...
