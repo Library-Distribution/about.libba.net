@@ -33,7 +33,7 @@ This is a rough estimate on how the first releases will be handled. No dates, no
 # Release 0.3.0
 **Featuring:**
 
-* full review handling
+* full review handling ([PR #38](http://github.com/Library-Distribution/ALD-API/pull/38))
 * consistent and useful error handling
 
 **Milestone:** [0.3.0](https://github.com/Library-Distribution/ALD-API/issues/milestones)
